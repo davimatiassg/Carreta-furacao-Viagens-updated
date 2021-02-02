@@ -66,10 +66,12 @@ a:hover, a:active, input:hover
 
 #maintable
 {
-	background:  #0086F5; 
+	background: #0086F5; 
 	color: #ffffff;
-	border-color: #0086F5;
-	
+	border: 20px;
+
+
+
 }
 img:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
