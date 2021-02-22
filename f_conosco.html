@@ -2,26 +2,28 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<title>
-		Fale conosco
-	</title>
-		<table align="center" style=" width: 100%;">
-			<tr>
-				<td style="width: 70%">
-					<h1>CARRETA FURACÃO PASSEIOS</h1>
-				</td>
-				<td style="padding-left: 750px; width: 30%">
-					<br><br><br><br>
-					<a href="home.html"><button type="button" id="button">Voltar</button></a>
-				</td>
-			</tr>
-		</table> 
+	<title>Carreta furacão</title>
+	<div style="background-color: #0086F5; padding: 1px; box-shadow: 0 5px 15px 0 rgba(0,0,0,0.24), 0 3px 15px 0 rgba(0,0,0,0.19);">	
+		<h1 align="center" style="color: white; font-size: 80px; font-family: helvetica; padding: 0.5%;">CARRETA FURACÃO PASSEIOS</h1>
+		<br>
+		<div align="center">
+
+
+				<a href="home.html"   ><button  id="bbutton" type="button", style="font-size: 40px; width: 580px; ">Página Inicial</button></a>
+				<a href="c_passagens.html"  ><button  id="bbutton" type="button", style="font-size: 40px; width: 580px; ">Comprar Passagem</button></a>
+
+				
+
+				<a href="fotos.html"   ><button  id="bbutton" type="button", style="font-size: 40px; width: 580px; ">Fotos da Carreta</button></a>
+		</div>
+	</div>
 		
 </head>
-<body >
-	<div align="center" id ="greenback" style="font-size:5; display: inline-block; width: 50%; height: 100%; float: left;">
-		<h2>Candidate-se para trabalhar conosco!</h2>
-		<form action="https://formspree.io/f/mleolqqn" method="POST">
+<body style="background-color: #eeeeff">
+	<br>
+	<div align="center" id ="shback" style="font-size:5; display: inline-block; width: 50%; height: 100%; float: left; border-left: solid 25px #fbf336;">
+		<h2 style="font-size: 48px">Candidate-se para trabalhar conosco!</h2>
+		<form action="https://formspree.io/f/mleolqqn" method="POST" style="padding-bottom: 20px">
 			<label>Seu Nome</label>
 			<br>
 			<input type="text" name="name", style="font-size: 30px">
@@ -38,8 +40,8 @@
 			<br>
 			<input type="text" name="endr" style="font-size: 30px">
 			<br><br>
-			<label>Cargo Desejado</label>
-			<br>
+			<label>Cargo Desejado</label><br>
+			
 			<select id="cargo"name="cargo" style="font-size: 30px">
 				<option value="1" name="motorista"selected> Motorista</option>
 				<option value="2" name="palhaço"> Palhaço </option>
@@ -48,22 +50,20 @@
 				<option value="5" name="popeye"> Popeye </option>
 				<option value="6" name="mickey"> Mickey </option>
 			</select>
-			<br>
-			<br>
+			<br><br>
 			<label>Seu Currículo</label>
 			<br>
 			
-			<input type="file" name="curr" style="font-size: 30px">
+			<input type="file" name="curr" style="font-size: 30px;">
 			<br><br><br>
-			<a href="home.html"><button type = "submit" id="button" style="font-size: 40px">Enviar</button></a>
+			<a href="home.html" style=""><button type = "submit" id="bbutton" style="font-size: 40px">Enviar</button></a>
+			<br>
 		</form>
-		
-		<img src="instagram.png" align="left"  style="display: inline-block; width: 48px; height: 48px; padding-left: 15px; padding-top: 100px;">
-		<p align="left" style="font-size:36px; padding-left: 70px; padding-top: 65px">@juroquesoucorno</p>
 	</div>
-	<div align="center" id="yellowback" style="; width: 50%; height: 100%; float: right;">
-		<h2>Abrir Chamado</h2>
-		<form action="https://formspree.io/f/mgepzggr" method="POST">
+	<div align="center" id="shback" style="; width: 50%; height: 100%; float: right; border-right: solid 25px #fbf336;">
+
+		<h2 style="font-size: 48px">Abrir Chamado</h2>
+		<form action="https://formspree.io/f/mgepzggr" method="POST" style="padding-bottom: 20px">
 			<label>Seu Nome</label>
 			<br>
 			<input type="text" name="name"style="font-size: 30px">
@@ -86,17 +86,32 @@
 			<br><br>
 			<label>Descrição</label>
 			<br>
-			<textarea id="desc" name="descrição" rows = 8 cols = 40 style="font-size: 20px"></textarea>
+			<textarea id="desc" name="descrição" rows = 9 cols = 40 style="font-size: 20px"></textarea>
 			<br><br>
-			<a href="home.html"><button type = "submit" id="button" style="font-size: 30px">Abrir chamado</button></a>
-		</form>
-		<p align="right" style="font-family:Comic Sans MS; font-size:28px; padding-right:30px; padding-top: 76px">
-			Restou alguma dúvida? <br><br>
-			Nossos contatos: <br>
- 			* vaidecarreta@gmail.com<br>
- 			* (66) 98673-0666
- 		</p>
-		
+			<a href="home.html" ><button type = "submit" id="bbutton" style="font-size: 30px; " >Abrir chamado</button></a>
+			<br>
+			
+		</form>		
+	</div>
+	<br><br><br><br>
+	<div id="noback" style="background-color: #ffffff; border-radius: 15px; width:  30%; box-shadow: 0 5px 15px 0 rgba(0,0,0,0.24), 0 3px 15px 0 rgba(0,0,0,0.19); margin-top: 60%">
+
+		<img src="instagram.png" align="left"  style="display: inline-block; width: 12%; height: 2%; padding-left: 1%; padding-top: 3%; display: inline-block;   ">
+			
+		<p align="left" style="font-size:35px; padding-left: 15%; padding-top: 7%; padding-bottom: 1%">@CarretaFuracao?!</p>
+
+		<img src="gmail.png" align="left"  style="display: inline-block; width: 12%; height: 2%; padding-left: 1%; padding-top: 3%; display: inline-block;   ">
+			
+		<p align="left" style="font-size:35px; padding-left: 15%; padding-top:  7%; padding-bottom: 1%"> vaidecarreta@gmail.com</p>
+
+		<img src="twitter.png" align="left"  style="display: inline-block; width: 12%; height: 2%; padding-left: 1%; padding-top: 2%; display: inline-block;   ">
+			
+		<p align="left" style="font-size:35px; padding-left: 15%; padding-top:  7%; padding-bottom: 1% "> @CarretaFuracao</p>
+
+		<img src="whatsapp.png" align="left"  style="display: inline-block; width: 12%; height: 2%; padding-left: 1%; padding-top: 2%; display: inline-block;   ">
+			
+		<p align="left" style="font-size:35px; padding-left: 15%; padding-top:  7%; padding-bottom: 7%"> (25) 4002-8922</p>
+
 	</div>
 </body>
 </html>
